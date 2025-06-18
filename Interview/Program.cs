@@ -55,11 +55,19 @@ namespace Interview
             Console.ResetColor();
             BridgePatternTesting.Run();
             Console.WriteLine("\n");
-            
+
+            // Peroxy design pattern
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("ProxyDesignPattern");
             Console.ResetColor();
             ProxyPatternTesting.Run();
+            Console.WriteLine("\n");
+
+            // Composite design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("CompositeDesignPattern");
+            Console.ResetColor();
+            CompositePatternTesting.Run();
             Console.WriteLine("\n");
             #endregion
 
