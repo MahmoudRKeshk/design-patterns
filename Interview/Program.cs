@@ -11,9 +11,14 @@ namespace Interview
             Console.WriteLine("BilderPattern!");
             Console.ResetColor();
             BuilderPatternTesting.Run();
+            Console.WriteLine("\n");
 
             // FactoryMethod Pattern Testing
-
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("FactoryMethodPattern!");
+            Console.ResetColor();
+            FactoryMethodPatternTesting.Run();
+            Console.WriteLine("\n");
         }
     }
 }
