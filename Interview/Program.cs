@@ -69,6 +69,15 @@ namespace Interview
             Console.ResetColor();
             CompositePatternTesting.Run();
             Console.WriteLine("\n");
+
+            // Facade design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("FacadeDesignPattern");
+            Console.ResetColor();
+            FacadePatternTesting.Run();
+            Console.WriteLine("\n");
+
+
             #endregion
 
 
