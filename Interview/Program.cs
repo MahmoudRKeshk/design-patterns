@@ -55,6 +55,12 @@ namespace Interview
             Console.ResetColor();
             BridgePatternTesting.Run();
             Console.WriteLine("\n");
+            
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("ProxyDesignPattern");
+            Console.ResetColor();
+            ProxyPatternTesting.Run();
+            Console.WriteLine("\n");
             #endregion
 
 
