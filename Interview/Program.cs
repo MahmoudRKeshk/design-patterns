@@ -19,6 +19,15 @@ namespace Interview
             Console.ResetColor();
             FactoryMethodPatternTesting.Run();
             Console.WriteLine("\n");
+
+            // Prototype Pattern Testing
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("PrototypePattern!");
+            Console.ResetColor();
+            PrototypePatternTesting.Run();
+            Console.WriteLine("\n");
+
+
         }
     }
 }
