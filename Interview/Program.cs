@@ -6,6 +6,8 @@ namespace Interview
     {
         static void Main(string[] args)
         {
+            #region Creationl Design Patterns
+            
             // Run the builder pattern testing
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("BilderPattern!");
@@ -28,6 +30,14 @@ namespace Interview
             Console.WriteLine("\n");
 
 
+            // Singleton Pattern Testing
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("SingletonPattern");
+            Console.ResetColor();
+            SingletonPatternTesting.Run();
+            Console.WriteLine("\n");
+
+            #endregion 
         }
     }
 }
