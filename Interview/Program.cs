@@ -37,6 +37,18 @@ namespace Interview
             SingletonPatternTesting.Run();
             Console.WriteLine("\n");
 
+            #endregion
+
+            #region Structural Design Patterns
+            
+            // Adaptr design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("AdapterDesignPattern");
+            Console.ResetColor();
+            AdapterPatternTesting.Run();
+            Console.WriteLine("\n");
+            
+            
             #endregion 
         }
     }
