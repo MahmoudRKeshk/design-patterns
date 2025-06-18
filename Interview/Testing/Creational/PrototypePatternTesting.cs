@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interview.Testing
+namespace Interview.Testing.Creational
 {
     public static class PrototypePatternTesting
     {
@@ -15,8 +15,8 @@ namespace Interview.Testing
             var report = new Report("Annual Report", "This is the content of the annual report.");
             var letter = new Letter("Mahmoud R. Keshk", "Dear Keshk, this is a letter.");
             
-            var clonedReport = (IDocumentPrototype)report.Clone();
-            var clonedLetter = (IDocumentPrototype)letter.Clone();
+            var clonedReport = report.Clone();
+            var clonedLetter = letter.Clone();
             
             Console.WriteLine("Original Report:\n" + report);
             Console.WriteLine("\nCloned Report:\n" + clonedReport);

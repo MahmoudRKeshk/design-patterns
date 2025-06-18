@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interview.Testing
+namespace Interview.Testing.Structural
 {
     public static class AdapterPatternTesting
     {

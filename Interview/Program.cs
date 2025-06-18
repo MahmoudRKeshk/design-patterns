@@ -1,4 +1,5 @@
-using Interview.Testing;
+using Interview.Testing.Creational;
+using Interview.Testing.Structural;
 
 namespace Interview
 {
@@ -47,9 +48,16 @@ namespace Interview
             Console.ResetColor();
             AdapterPatternTesting.Run();
             Console.WriteLine("\n");
-            
-            
-            #endregion 
+
+            // Bridge design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("BridgeDesignPattern");
+            Console.ResetColor();
+            BridgePatternTesting.Run();
+            Console.WriteLine("\n");
+            #endregion
+
+
         }
     }
 }
