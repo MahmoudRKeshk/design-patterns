@@ -77,6 +77,12 @@ namespace Interview
             FacadePatternTesting.Run();
             Console.WriteLine("\n");
 
+            // Decorator design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("DecoratorDesignPattern");
+            Console.ResetColor();
+            DecoratorPatternTesting.Run();
+            Console.WriteLine("\n");
 
             #endregion
 
