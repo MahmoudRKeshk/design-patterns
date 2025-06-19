@@ -84,6 +84,13 @@ namespace Interview
             DecoratorPatternTesting.Run();
             Console.WriteLine("\n");
 
+            // Flyweight design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("FlyweightDesignPattern");
+            Console.ResetColor();
+            FlyweightPatternTesting.Run();
+            Console.WriteLine("\n");
+
             #endregion
 
 
