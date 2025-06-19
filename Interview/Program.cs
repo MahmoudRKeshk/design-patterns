@@ -117,6 +117,14 @@ namespace Interview
             Console.ResetColor();
             MediatorPatternTesting.Run();
             Console.WriteLine("\n");
+
+            // Visr design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("VisitorDesignPattern");
+            Console.ResetColor();
+            VisitorPatternTesting.Run();
+            Console.WriteLine("\n");
+
             #endregion
         }
     }
