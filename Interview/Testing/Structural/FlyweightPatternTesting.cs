@@ -33,7 +33,6 @@ namespace Interview.Testing.Structural
             Console.WriteLine($"[+] {book01Copy02}");
             Console.WriteLine($"[+] {book02Copy01}");
             Console.WriteLine($"[+] {book03Copy01}");
-
         } 
     }
 }

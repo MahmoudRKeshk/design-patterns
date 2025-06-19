@@ -1,3 +1,4 @@
+using Interview.Testing.Behavioral;
 using Interview.Testing.Creational;
 using Interview.Testing.Structural;
 
@@ -93,7 +94,17 @@ namespace Interview
 
             #endregion
 
+            #region Behavioral Design Patterns
 
+            // Observer design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("ObserverDesignPattern");
+            Console.ResetColor();
+            ObserverPatternTesting.Run();
+            Console.WriteLine("\n");
+
+
+            #endregion
         }
     }
 }
