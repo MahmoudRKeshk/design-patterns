@@ -110,6 +110,13 @@ namespace Interview
             StatePatternTesting.Run();
             Console.WriteLine("\n");
 
+
+            // Mediator design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("MediatorDesignPattern");
+            Console.ResetColor();
+            MediatorPatternTesting.Run();
+            Console.WriteLine("\n");
             #endregion
         }
     }
