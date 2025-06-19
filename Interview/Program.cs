@@ -118,11 +118,18 @@ namespace Interview
             MediatorPatternTesting.Run();
             Console.WriteLine("\n");
 
-            // Visr design pattern
+            // Visitor design pattern
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("VisitorDesignPattern");
             Console.ResetColor();
             VisitorPatternTesting.Run();
+            Console.WriteLine("\n");
+
+            // Chain of Responsibility design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("ChainOfResponsibilityDesignPattern");
+            Console.ResetColor();
+            CoRPatternTesting.Run();
             Console.WriteLine("\n");
 
             #endregion
