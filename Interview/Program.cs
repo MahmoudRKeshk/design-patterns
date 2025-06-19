@@ -103,6 +103,12 @@ namespace Interview
             ObserverPatternTesting.Run();
             Console.WriteLine("\n");
 
+            // State design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("StateDesignPattern");
+            Console.ResetColor();
+            StatePatternTesting.Run();
+            Console.WriteLine("\n");
 
             #endregion
         }
