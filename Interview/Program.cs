@@ -139,6 +139,13 @@ namespace Interview
             CommandPatternTesting.Run();
             Console.WriteLine("\n");
 
+            // Template Method design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("TemplateMethodDesignPattern");
+            Console.ResetColor();
+            TempleteMethodPatternTesting.Run();
+            Console.WriteLine("\n");
+
             #endregion
         }
     }
