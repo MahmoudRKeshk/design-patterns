@@ -132,6 +132,13 @@ namespace Interview
             CoRPatternTesting.Run();
             Console.WriteLine("\n");
 
+            // Command design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("CommandDesignPattern");
+            Console.ResetColor();
+            CommandPatternTesting.Run();
+            Console.WriteLine("\n");
+
             #endregion
         }
     }
