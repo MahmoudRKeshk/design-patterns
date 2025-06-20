@@ -153,6 +153,15 @@ namespace Interview
             StrategyPatternTesting.Run();
             Console.WriteLine("\n");
 
+            // Memento design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("MementoDesignPattern");
+            Console.ResetColor();
+            MementoPatternTesting.Run();
+            Console.WriteLine("\n\n");
+
+
+
             #endregion
         }
     }
