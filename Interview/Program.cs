@@ -146,6 +146,13 @@ namespace Interview
             TempleteMethodPatternTesting.Run();
             Console.WriteLine("\n");
 
+            // Strategy design pattern
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("StrategyDesignPattern");
+            Console.ResetColor();
+            StrategyPatternTesting.Run();
+            Console.WriteLine("\n");
+
             #endregion
         }
     }
